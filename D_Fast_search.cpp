@@ -1,10 +1,10 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <set>
 #include <algorithm>
+#include <iostream>
 #include <map>
+#include <set>
+#include <string>
 #include <unordered_map>
+#include <vector>
 
 using namespace std;
 using ll = long long;
@@ -12,6 +12,7 @@ using ll = long long;
 int main()
 {
 	ios::sync_with_stdio(false);
+	// cin.tie(NULL);
 	int n;
 	cin >> n;
 	vector<int> a(n);
